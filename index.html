@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Калькулятор </title>
+    <meta charset="utf-8" />
+    <script src="js/script.js"></script>
+</head>
+
+<body onload="f()">
+    <input type="text" id="arg1" autocomplete="Off" />
+    <div id="op"> &nbsp; </div>
+    <input type="text" id="arg2" autocomplete="Off" /> <br />
+    <input type="button" value="+" onclick="select_op('+')" />
+    <input type="button" value="-" onclick="select_op('-')" />
+    <input type="button" value="*" onclick="select_op('*')" />
+    <input type="button" value="/" onclick="select_op('/')" />
+    <input type="button" value="=" onclick="execute()" />
+    <div id="res"> </div>
+</body>
+
+</html>
